@@ -1,0 +1,48 @@
+name: Update Manifest Version PR
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  update-version-prRENAME:
+    runs-on: ubuntu-latest
+    env:
+      TAG: ${{ github.event.release.tag_name }}
+      BRANCH: update-manifest-version-${{ github.event.release.tag_name }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Update manifest
+        run: |
+          jq --arg v "$TAG" '.version = $v' manifest.json > tmp.json
+          mv tmp.json manifest.json
+
+      - name: Commit to new branch
+        run: |
+          git checkout -b $BRANCH
+          git add manifest.json
+          git commit -m "Update manifest version to $TAG"
+
+      - name: Push branch
+        run: |
+          git push --set-upstream origin $BRANCH
+
+      - name: Create PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --title "Update manifest version to $TAG" \
+            --body "Updated the `version` field in `manifest.json` to match new \
+              release tagged $TAG." \
+            --base main \
+            --head $BRANCH \
+            --repo $GITHUB_REPOSITORY
