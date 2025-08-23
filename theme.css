@@ -1,0 +1,102 @@
+:root {
+    /* Everforest colors */
+    --everforest-bg_dim: #232A2E;
+    --everforest-bg0: #2D353B;
+    --everforest-bg1: #343F44;
+    --everforest-bg2: #3D484D;
+    --everforest-bg3: #475258;
+    --everforest-bg4: #4F585E;
+    --everforest-bg5: #56635f;
+    --everforest-fg: #d3c6aa;
+    --everforest-red: #e67e80;
+    --everforest-yellow: #dbbc7f;
+    --everforest-green: #a7c080;
+    --everforest-blue: #7fbbb3;
+    --everforest-purple: #d699b6;
+    --everforest-aqua: #83c092;
+    --everforest-orange: #e69875;
+    --everforest-grey0: #7a8478;
+    --everforest-grey1: #859289;
+    --everforest-grey2: #9da9a0;
+
+    /* Utils */
+    --darken-ratio: 25%;
+}
+
+.theme-dark {
+    /* Base colors */
+    --color-base-00: var(--everforest-bg_dim);
+    --color-base-05: var(--everforest-bg_dim);
+    --color-base-10: var(--everforest-bg0);
+    --color-base-20: var(--everforest-bg0);
+    --color-base-25: var(--everforest-bg1);
+    --color-base-30: var(--everforest-bg1);
+    --color-base-35: var(--everforest-bg2);
+    --color-base-40: var(--everforest-bg2);
+    --color-base-50: var(--everforest-bg3);
+    --color-base-60: var(--everforest-bg3);
+    --color-base-70: var(--everforest-bg4);
+    --color-base-100: var(--everforest-bg4);
+
+    /* Accent color: green */
+    --accent-h: 83;
+    --accent-s: 34%;
+    --accent-l: 63%;
+
+    /* Extended colors */
+    --color-red: var(--everforest-red);
+    --color-orange: var(--everforest-orange);
+    --color-yellow: var(--everforest-yellow);
+    --color-green: var(--everforest-green);
+    --color-cyan: var(--everforest-blue);
+    --color-blue: var(--everforest-blue);
+    --color-purple: var(--everforest-purple);
+    --color-pink: var(--everforest-purple);
+
+    /* Semantic colors */
+    --background-secondary: var(--everforest-bg_dim);
+    --background-secondary-alt: var(--everforest-bg_dim);
+
+    /* Text colors */
+    --text-normal: var(--everforest-fg);
+    --text-muted: var(--everforest-grey2);
+    --text-on-accent: var(--everforest-bg_dim);
+
+    /* Bold */
+    --bold-modifier: 0;
+    --bold-color: var(--everforest-purple);
+
+    /* Blockquote */
+    --blockquote-border-color: var(--everforest-yellow);
+    --blockquote-color: var(--everforest-yellow);
+
+    /* Link */
+    --link-color: var(--everforest-red);
+    --link-external-color: var(--everforest-red);
+    --link-color-hover: color-mix(
+        in srgb, var(--everforest-red), var(--darken-ratio) black
+        );
+    --link-external-color-hover: color-mix(
+        in srgb, var(--everforest-red), var(--darken-ratio) black
+        );
+
+    /* Checkbox */
+    --checkbox-color: var(--everforest-blue);
+    --checkbox-color-hover: color-mix(
+        in srgb, var(--everforest-blue), var(--darken-ratio) black
+        );
+
+    /* Code */
+    --code-comment: var(--everforest-bg5);
+
+    /* Simplified table */
+    --table-column-first-border-width: 0px;
+    --table-column-last-border-width: 0px;
+    --table-row-last-border-width: 0px;
+    --table-header-border-width: 0px;
+    --table-header-color: var(--everforest-orange);
+
+    /* Green text color accents */
+    --nav-item-color-active: var(--everforest-green);
+    --tab-text-color-focused-active-current: var(--everforest-green);
+}
