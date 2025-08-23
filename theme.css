@@ -33,11 +33,11 @@
     --color-base-25: var(--everforest-bg1);
     --color-base-30: var(--everforest-bg1);
     --color-base-35: var(--everforest-bg2);
-    --color-base-40: var(--everforest-bg2);
-    --color-base-50: var(--everforest-bg3);
-    --color-base-60: var(--everforest-bg3);
-    --color-base-70: var(--everforest-bg4);
-    --color-base-100: var(--everforest-bg4);
+    --color-base-40: var(--everforest-bg3);
+    --color-base-50: var(--everforest-grey0);
+    --color-base-60: var(--everforest-grey0);
+    --color-base-70: var(--everforest-grey1);
+    --color-base-100: var(--everforest-grey2);
 
     /* Accent color: green */
     --accent-h: 83;
