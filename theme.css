@@ -65,26 +65,26 @@
 
     /* Bold */
     --bold-modifier: 0;
-    --bold-color: var(--everforest-purple);
+    --bold-color: var(--everforest-orange);
 
     /* Blockquote */
-    --blockquote-border-color: var(--everforest-yellow);
-    --blockquote-color: var(--everforest-yellow);
+    --blockquote-border-color: var(--everforest-aqua);
+    --blockquote-color: var(--everforest-aqua);
 
     /* Link */
-    --link-color: var(--everforest-red);
-    --link-external-color: var(--everforest-red);
+    --link-color: var(--everforest-blue);
+    --link-external-color: var(--everforest-blue);
     --link-color-hover: color-mix(
-        in srgb, var(--everforest-red), var(--darken-ratio) black
+        in srgb, var(--link-color), var(--darken-ratio) black
         );
     --link-external-color-hover: color-mix(
-        in srgb, var(--everforest-red), var(--darken-ratio) black
+        in srgb, var(--link-external-color), var(--darken-ratio) black
         );
 
     /* Checkbox */
-    --checkbox-color: var(--everforest-blue);
+    --checkbox-color: var(--everforest-red);
     --checkbox-color-hover: color-mix(
-        in srgb, var(--everforest-blue), var(--darken-ratio) black
+        in srgb, var(--checkbox-color), var(--darken-ratio) black
         );
 
     /* Code */
@@ -97,6 +97,9 @@
     --table-header-border-width: 0px;
     --table-header-background: var(--everforest-bg0);
     --table-header-background-hover: var(--table-header-background);
+
+    /* List */
+    --list-marker-color: var(--everforest-yellow);
 
     /* Green text color accents */
     --nav-item-color-active: var(--everforest-green);
