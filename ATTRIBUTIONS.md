@@ -1,6 +1,10 @@
+## Attribution of Third-Party Software
+
+### [Everforest](https://github.com/sainnhe/everforest)
+
 MIT License
 
-Copyright (c) 2025 Mátyás Verseghi-Nagy
+Copyright (c) 2019 sainnhe
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
