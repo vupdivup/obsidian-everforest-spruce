@@ -61,6 +61,7 @@
     --text-normal: var(--everforest-fg);
     --text-muted: var(--everforest-grey2);
     --text-on-accent: var(--everforest-bg_dim);
+    --text-selection: var(--everforest-bg5);
 
     /* Bold */
     --bold-modifier: 0;
