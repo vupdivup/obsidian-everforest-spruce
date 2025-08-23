@@ -94,7 +94,8 @@
     --table-column-last-border-width: 0px;
     --table-row-last-border-width: 0px;
     --table-header-border-width: 0px;
-    --table-header-color: var(--everforest-orange);
+    --table-header-background: var(--everforest-bg0);
+    --table-header-background-hover: var(--table-header-background);
 
     /* Green text color accents */
     --nav-item-color-active: var(--everforest-green);
