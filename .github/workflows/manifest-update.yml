@@ -9,7 +9,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  update-version-prRENAME:
+  manifest-update:
     runs-on: ubuntu-latest
     env:
       TAG: ${{ github.event.release.tag_name }}
@@ -26,7 +26,7 @@ jobs:
 
       - name: Update manifest
         run: |
-          jq --arg v "$TAG" '.version = $v' manifest.json > tmp.json
+          jq --arg v "$TAG" --indent 3 '.version = $v' manifest.json > tmp.json
           mv tmp.json manifest.json
 
       - name: Commit to new branch
@@ -45,8 +45,8 @@ jobs:
         run: |
           gh pr create \
             --title "Update manifest version to $TAG" \
-            --body "Updated the `version` field in `manifest.json` to match new \
-              release tagged $TAG." \
+            --body "Updated the \`version\` field in \`manifest.json\` to match \
+              new release tagged $TAG." \
             --base main \
             --head $BRANCH \
             --repo $GITHUB_REPOSITORY
