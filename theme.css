@@ -89,7 +89,7 @@
         );
 
     /* Code */
-    --code-comment: var(--everforest-bg5);
+    --code-comment: var(--everforest-grey1);
 
     /* Simplified table */
     --table-column-first-border-width: 0px;
