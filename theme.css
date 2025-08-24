@@ -8,23 +8,27 @@
     --everforest-bg4: #4F585E;
     --everforest-bg5: #56635f;
     --everforest-bg_visual: #543A48;
-    --everforest-fg: #d3c6aa;
-    --everforest-red: #e67e80;
-    --everforest-yellow: #dbbc7f;
-    --everforest-green: #a7c080;
-    --everforest-blue: #7fbbb3;
-    --everforest-purple: #d699b6;
-    --everforest-aqua: #83c092;
-    --everforest-orange: #e69875;
-    --everforest-grey0: #7a8478;
+    --everforest-fg: #D3C6AA;
+    --everforest-red: #E67E80;
+    --everforest-orange: #E69875;
+    --everforest-yellow: #DBBC7F;
+    --everforest-green: #A7C080;
+    --everforest-aqua: #83C092;
+    --everforest-blue: #7FBBB3;
+    --everforest-purple: #D699B6;
+    --everforest-grey0: #7A8478;
     --everforest-grey1: #859289;
-    --everforest-grey2: #9da9a0;
+    --everforest-grey2: #9DA9A0;
 
     /* Utils */
     --darken-ratio: 25%;
 }
 
 .theme-dark {
+    /* ---------------------------------------------------------------------- */
+    /* FOUNDATIONS */
+    /* ---------------------------------------------------------------------- */
+
     /* Base colors */
     --color-base-00: var(--everforest-bg_dim);
     --color-base-05: var(--everforest-bg_dim);
@@ -68,6 +72,10 @@
     --bold-modifier: 0;
     --bold-color: var(--everforest-orange);
 
+    /* ---------------------------------------------------------------------- */
+    /* EDITOR */
+    /* ---------------------------------------------------------------------- */
+
     /* Blockquote */
     --blockquote-border-color: var(--everforest-aqua);
     --blockquote-color: var(--everforest-aqua);
@@ -101,6 +109,10 @@
 
     /* List */
     --list-marker-color: var(--everforest-yellow);
+
+    /* ---------------------------------------------------------------------- */
+    /* Components */
+    /* ---------------------------------------------------------------------- */
 
     /* Green text color accents */
     --nav-item-color-active: var(--everforest-green);
