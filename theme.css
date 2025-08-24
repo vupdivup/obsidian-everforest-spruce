@@ -68,6 +68,8 @@
     --text-on-accent: var(--everforest-bg_dim);
     --text-selection: var(--everforest-bg_visual);
     --text-highlight-bg: var(--everforest-bg_visual);
+    
+    --italic-color: var(--everforest-yellow);
 
     /* Bold */
     --bold-modifier: 0;
