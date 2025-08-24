@@ -8,11 +8,13 @@
 
 ## Features
 
-Here are a couple of reasons to try out **Everforest Spruce**:
-
 - Pleasant and subtle Everforest color scheme
 - Visual separation through colored elements
 - Reduced eye strain via a dimmed background
 - Sleek mono-color headings
 - Readable code blocks based on Everforest's highlighting rules
 - Simplified tables for a solidifed design
+
+## Attribution
+
+This project uses code from [sainnhe/everforest](https://github.com/sainnhe/everforest), whose copyright notice and license are included in the [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) file.
