@@ -104,7 +104,17 @@
         );
 
     /* Code */
+    --code-normal: var(--everforest-fg);
     --code-comment: var(--everforest-grey1);
+    --code-function: var(--everforest-green);
+    --code-important: var(--everforest-red);
+    --code-keyword: var(--everforest-red);
+    --code-operator: var(--everforest-orange);
+    --code-property: var(--everforest-fg);
+    --code-punctuation: var(--everforest-grey1);
+    --code-string: var(--everforest-green);
+    --code-tag: var(--everforest-aqua);
+    --code-value: var(--everforest-purple);
 
     /* Simplified table */
     --table-column-first-border-width: 0px;
