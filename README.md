@@ -10,7 +10,7 @@
 
 Here are a couple of reasons to try out **Everforest Spruce**:
 
-- Pleasant yet subtle Everforest color scheme
+- Pleasant and subtle Everforest color scheme
 - Visual separation through colored elements
 - Reduced eye strain via a dimmed background
 - Sleek mono-color headings
