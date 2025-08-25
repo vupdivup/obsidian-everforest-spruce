@@ -72,8 +72,7 @@
     --bold-color: var(--everforest-orange);
 
     /* Icons */
-    --icon-color-active: var(--everforest-green);
-    --icon-color-focused: var(--everforest-green);
+    --icon-color-focused: var(--icon-color);
 
     /* ---------------------------------------------------------------------- */
     /* EDITOR */
