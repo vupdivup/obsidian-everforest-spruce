@@ -1,6 +1,6 @@
 # Everforest Spruce
 
-![Everforest Spruce](docs/images/screenshot.png)
+![Everforest Spruce](docs/images/cover_1400_788.png)
 
 **Everforest Spruce** is an Obsidian theme based on [Everforest](https://github.com/sainnhe/everforest) by [Sainnhe Park](https://github.com/sainnhe), created as a decluttered alternative to existing variations. It aims to be minimalistic while guiding focus to important text sections via the palette's accent colors.
 
@@ -18,3 +18,7 @@
 ## Attribution
 
 This project uses code from [sainnhe/everforest](https://github.com/sainnhe/everforest), whose copyright notice and license are included in the [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md) file.
+
+## Gallery
+
+![Theme screenshot](docs/images/screenshot.png)
