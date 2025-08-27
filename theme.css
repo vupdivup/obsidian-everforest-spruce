@@ -131,3 +131,12 @@
     --nav-item-color-active: var(--everforest-green);
     --tab-text-color-focused-active-current: var(--everforest-green);
 }
+
+blockquote strong {
+    color: var(--blockquote-color);
+    font-weight: 500;
+}
+
+blockquote em {
+    color: var(--blockquote-color);
+}
