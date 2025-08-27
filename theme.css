@@ -92,6 +92,8 @@
     --link-external-color-hover: color-mix(
         in srgb, var(--link-external-color), var(--darken-ratio) black
         );
+    --link-unresolved-color: var(--everforest-grey1);
+    --link-unresolved-opacity: 1;
 
     /* Checkbox */
     --checkbox-color: var(--everforest-red);
